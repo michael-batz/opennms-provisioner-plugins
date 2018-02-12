@@ -1,0 +1,18 @@
+################################################################
+#                                                              #
+# .gitignore file for opennms-provisioner-plugins              #
+#                                                              #
+################################################################
+
+# ignore byte-compiled files
+*.pyo
+*.pyc
+__pycache__/
+
+# directory for virtualenv
+env/
+
+# packaging
+build/
+dist/
+*.egg-info/
